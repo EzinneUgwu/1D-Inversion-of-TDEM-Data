@@ -1,0 +1,16 @@
+name: tdem-well-inversion
+channels:
+  - conda-forge
+  - defaults
+
+dependencies:
+  - python=3.11
+  - numpy
+  - matplotlib
+  - scipy
+  - jupyterlab
+  - ipykernel
+  - pip
+  - pip:
+      - simpeg
+      - discretize
