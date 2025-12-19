@@ -6,7 +6,7 @@ Input: resistivity vs depth from a 300 m well, sampled every 2 m.
 
 Forward model: 1D layered TDEM using a VTEM‑Plus‑style source–receiver geometry and 44 off‑time gates.
 
-Synthetic data: computed responses with optional Gaussian noise.
+Synthetic data: computed responses with Gaussian noise.
 
 Inversion: 1D layered inversion using a simpeg's smoothness‑regularized least‑squares formulation.
 
